@@ -1,0 +1,18 @@
+1. Install Cheat Engine
+2. Double click on mod menu
+3. Select Gta 5 or FiveM from Cheat engine
+4. Keep the codes
+5. Enjoy
+
+num1 no reload
+num2 unlimited ammo
+num3 health
+num4 armor
+num5 car repair
+num7 godmode
+
+Custom TP tutorial:
+For custom Teleports (so not the waypoint), you need to select the teleports, then go in game and walk forward a bit.
+
+Menu made by aZelda#6310 and MrLeDuck#1337
+Version 0.1
