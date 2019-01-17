@@ -8,7 +8,7 @@ num1 no reload
 num2 unlimited ammo
 num3 health
 num4 armor
-num5 car repair
+num5 car repair (Only repairs engine)
 num7 godmode
 
 Custom TP tutorial:
@@ -16,3 +16,30 @@ For custom Teleports (so not the waypoint), you need to select the teleports, th
 
 Menu made by aZelda#6310 and MrLeDuck#1337
 Version 0.1
+
+------------------------------------------------------------------
+[UPDATED TUTORIAL - READ IF YOU DON'T KNOW HOW CHEAT ENGINE WORKS]
+
+What is Cheat Engine?
+Cheat Engine is a value editor for softwares. What this cheat essentially allows you to do is modify client side values, which gta has a lot of those. Then the modified client side values will be transmitted to the server. Normally how you would do this without a cheat table is
+- search for the specific value and the type (this has already been done for you)
+- filter out unwanted values (this has already been done for you)
+- bookmark the value (this has already been done for you)
+- change the value to whatever you want
+- freeze the value so it doesn't change
+
+Simple tutorial:
+Based on what was said above, let's examine how you would give yourself godmode in Gta 5. You could navigate over to the health field, set the value on 200 which is the max gta 5 health, and then press X in the empty box to freeze the value. But, 200 health doesn't give you godmode. Headshots and explosions in this game do way more than 200 damage, and even though you freezed the value, it still drops for a split second which is enough to kill you. To counter that and truly give yourself godmode, set the health on something ridiculous like 20000000 and then freeze the value.
+
+Easy tutorial:
+If you read the Simple Tutorial and now understand the health thing, you can replicate the same thing for stuff like amour. Going into other stuff like walk or swim speed. Don't set those higher than 5, as it isn't efficient anymore. Also, do not tough or edit the "Player Position" field as it has nothing to do with teleporting. All teleport options are in their own category. Also, if you don't have NumPad and are wondering how to change gun stuff, open "Weapon Options", there you can put "No Reload", "Unlimited Ammo", and set your "Current Ammo" in the weapon. Also hint, you need to have the weapon equipped to set your ammo. 
+
+Advanced Tutorial:
+Continuing from the Easy Tutorial, If you familiarised yourself with that already, you can see more options in the Weapon options. You can play with the "Melee Damage Multiplier", or Expand down to "Weapon Mods" where you will see a lot of stuff. I won't go into too many details, however lets use the "Bullet Damage" as an example. Its how much damage a bullet does. Change it to something like 200 and it will be an insta kill gun,. Change it to 20000 and it will stop cars or blow them up in 1 or 4 bullets (depends on the sync). You can build anything here, from rocket launchers that freeze rockets in air, to insta homing guns, velocity, weapon range, etc. Have fun.
+
+If you open "Vehicle Options", you will see some stuff. Don't touch that and go down to "Vehicle Mods". That is your vehicle playground where you can modify just about anything on a vehicle. "Acceleration" for example is self explanatory, but making it too high will cause your car to drift a lot. Luckily you can counter that with "Gravity". The higher the gravity, the more speed and slowing down you will get, as that's basic physics. Look around and play with stuff, you can build just about anything from flying cars, to wheeling cars, to unstoppable faggios that destroy trucks on contact.
+
+Super Advanced stuff:
+Not going to go in too much detail here, but this is a powerful tool if you know how to use it as essentially you have control over everything that is going on client side, which is a huge part of gta 5 and how it was coded. Options are limitless, so have fun, even go ahead and modify the cheat table if you found other values you want to add. Everything is up to you ;)
+
+Thanks for using
