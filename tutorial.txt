@@ -15,7 +15,7 @@ Custom TP tutorial:
 For custom Teleports (so not the waypoint), you need to select the teleports, then go in game and walk forward a bit.
 
 Menu made by aZelda#6310 and MrLeDuck#1337
-Version 0.1
+Version 0.1.2
 
 ------------------------------------------------------------------
 [UPDATED TUTORIAL - READ IF YOU DON'T KNOW HOW CHEAT ENGINE WORKS]
