@@ -58,7 +58,7 @@ unregisterSymbol(GlobalPTR)
       <CheatEntries>
         <CheatEntry>
           <ID>11</ID>
-          <Description>"Open da Duck for cheats :)"</Description>
+          <Description>"Open StolenValor 1.3"</Description>
           <Options moHideChildren="1"/>
           <LastState Value="" RealAddress="00000000"/>
           <Color>CA00CA</Color>
@@ -73,52 +73,21 @@ unregisterSymbol(GlobalPTR)
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>85</ID>
-                  <Description>"Anti AFK (Not working)"</Description>
-                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">300000:OFF
-1234567890:ON
+                  <ID>16</ID>
+                  <Description>"Invisibility (beta)"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">47:OFF
+1:ON
 </DropDownList>
-                  <Color>FF0080</Color>
+                  <LastState Value="47" RealAddress="0E38B8FC"/>
+                  <Color>000000</Color>
                   <VariableType>Byte</VariableType>
                   <Address>WorldPTR</Address>
                   <Offsets>
-                    <Offset>189</Offset>
+                    <Offset>2c</Offset>
                     <Offset>8</Offset>
                   </Offsets>
-                  <Hotkeys>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>106</Key>
-                      </Keys>
-                      <Value>01</Value>
-                      <ID>0</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Activate</Action>
-                      <Keys>
-                        <Key>106</Key>
-                      </Keys>
-                      <ID>1</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Deactivate</Action>
-                      <Keys>
-                        <Key>111</Key>
-                      </Keys>
-                      <ID>2</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>111</Key>
-                      </Keys>
-                      <Value>00</Value>
-                      <ID>3</ID>
-                    </Hotkey>
-                  </Hotkeys>
-                </CheatEntry>
-				
+                </CheatEntry>				
+
         <CheatEntry>
           <ID>8</ID>
           <Description>"Health num3"</Description>
@@ -161,7 +130,7 @@ unregisterSymbol(GlobalPTR)
 		
                 <CheatEntry>
                   <ID>348478</ID>
-                  <Description>"Reveal Players"</Description>
+                  <Description>"Reveal Players (beta)"</Description>
                   <LastState/>
                   <Color>C0C0C0</Color>
                   <VariableType>Auto Assembler Script</VariableType>
@@ -317,74 +286,7 @@ writeInteger(e, "0")
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
-			
-            <CheatEntry>
-              <ID>28</ID>
-              <Description>"Weapon Options"</Description>
-              <Options moHideChildren="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <Color>000000</Color>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>348516</ID>
-                  <Description>"Bullet Type "</Description>
-                  <Options moHideChildren="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <Color>8080FF</Color>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>348513</ID>
-                      <Description>"Bullet Type (lock)"</Description>
-                      <Options moHideChildren="1" moActivateChildrenAsWell="1"/>
-                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Fist
-2:Bullet
-3:Heavy Bullet
-</DropDownList>
-                      <Color>8000FF</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>WorldPTR</Address>
-                      <Offsets>
-                        <Offset>54</Offset>
-                        <Offset>20</Offset>
-                        <Offset>10C8</Offset>
-                        <Offset>8</Offset>
-                      </Offsets>
-                      <CheatEntries>
-                        <CheatEntry>
-                          <ID>348514</ID>
-                          <Description>"Bullet Type (Shoot)"</Description>
-                          <Color>808080</Color>
-                          <VariableType>8 Bytes</VariableType>
-                          <Address>WorldPTR</Address>
-                          <Offsets>
-                            <Offset>60</Offset>
-                            <Offset>20</Offset>
-                            <Offset>10C8</Offset>
-                            <Offset>8</Offset>
-                          </Offsets>
-                        </CheatEntry>
-                      </CheatEntries>
-                    </CheatEntry>
 
-                    <CheatEntry>
-                      <ID>348517</ID>
-                      <Description>"Throwables Gravity"</Description>
-                      <Color>808080</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>WorldPTR</Address>
-                      <Offsets>
-                        <Offset>68</Offset>
-                        <Offset>60</Offset>
-                        <Offset>20</Offset>
-                        <Offset>10C8</Offset>
-                        <Offset>8</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-				
                 <CheatEntry>
                   <ID>33</ID>
                   <Description>"no reload"</Description>
@@ -431,6 +333,26 @@ unregistersymbol(clip)
                     <Offset>8</Offset>
                   </Offsets>
                 </CheatEntry>
+                <CheatEntry>
+                  <ID>348532</ID>
+                  <Description>"Reload Speed"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Default
+2:2x
+10:10x
+25:25x
+50:50x
+999:Instant
+</DropDownList>
+                  <Color>FF0080</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>WorldPTR</Address>
+                  <Offsets>
+                    <Offset>12C</Offset>
+                    <Offset>20</Offset>
+                    <Offset>10C8</Offset>
+                    <Offset>8</Offset>
+                  </Offsets>
+                </CheatEntry>
 				
                 <CheatEntry>
                   <ID>32</ID>
@@ -464,7 +386,7 @@ unregistersymbol(ammo)
 				
                 <CheatEntry>
                   <ID>348527</ID>
-                  <Description>"Aim FOV"</Description>
+                  <Description>"Aim FOV(beta)"</Description>
                   <DropDownList DisplayValueAsItem="1">35:Default 1
 45:Default 2
 50:Default 3
@@ -505,6 +427,20 @@ unregistersymbol(ammo)
                     <Offset>8</Offset>
                   </Offsets>
                 </CheatEntry>
+                   <CheatEntry>
+                      <ID>348517</ID>
+                      <Description>"Throwables Gravity"</Description>
+                      <Color>808080</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>WorldPTR</Address>
+                      <Offsets>
+                        <Offset>68</Offset>
+                        <Offset>60</Offset>
+                        <Offset>20</Offset>
+                        <Offset>10C8</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
 				
                 <CheatEntry>
                   <ID>348576</ID>
@@ -585,6 +521,7 @@ unregistersymbol(ammo)
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
+				
                 <CheatEntry>
                   <ID>75</ID>
                   <Description>"Weapon Mods"</Description>
@@ -839,8 +776,6 @@ unregistersymbol(ammo)
                         <Offset>8</Offset>
                       </Offsets>
                     </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
               </CheatEntries>
             </CheatEntry>
 
@@ -900,55 +835,45 @@ unregistersymbol(ammo)
                   </Hotkeys>
                 </CheatEntry>
 
-        <CheatEntry>
-          <ID>1009</ID>
-          <Description>"vehicle 1 num5"</Description>
-          <LastState Value="1000" RealAddress="0E507CC0"/>
-          <Color>00A400</Color>
-          <VariableType>Float</VariableType>
-          <Address>WorldPTR</Address>
-          <Offsets>
-            <Offset>280</Offset>
-            <Offset>D28</Offset>
-			<Offset>8</Offset>
-          </Offsets>
-          <Hotkeys>
-            <Hotkey>
-              <Action>Set Value</Action>
-              <Keys>
-                <Key>101</Key>
-              </Keys>
-              <Value>1000</Value>
-              <Description>vehicle repair</Description>
-              <ID>0</ID>
-            </Hotkey>
-          </Hotkeys>
-        </CheatEntry>
-		
-        <CheatEntry>
-          <ID>51</ID>
-          <Description>"vehicle 2 num5"</Description>
-          <LastState Value="1000" RealAddress="0E5082DC"/>
-          <Color>00A400</Color>
-          <VariableType>Float</VariableType>
-          <Address>WorldPTR</Address>
-          <Offsets>
-            <Offset>89C</Offset>
-            <Offset>D28</Offset>
-			<Offset>8</Offset>
-          </Offsets>
-          <Hotkeys>
-            <Hotkey>
-              <Action>Set Value</Action>
-              <Keys>
-                <Key>101</Key>
-              </Keys>
-              <Value>1000</Value>
-              <Description>vehicle repair</Description>
-              <ID>0</ID>
-            </Hotkey>
-          </Hotkeys>
-        </CheatEntry>
+                    <CheatEntry>
+                      <ID>73</ID>
+                      <Description>"Engine Health 1"</Description>
+                      <LastState Value="1000" Activated="1" RealAddress="1F4BF7F6A90"/>
+                      <Color>008000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>WorldPTR</Address>
+                      <Offsets>
+                        <Offset>280</Offset>
+                        <Offset>D28</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>74</ID>
+                      <Description>"Engine Health 2"</Description>
+                      <LastState Value="1000" Activated="1" RealAddress="1F4BF7F70F8"/>
+                      <Color>008000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>WorldPTR</Address>
+                      <Offsets>
+                        <Offset>8E8</Offset>
+                        <Offset>D28</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348548</ID>
+                      <Description>"Engine Health 3"</Description>
+                      <LastState Value="1000" Activated="1" RealAddress="1F4BF7F7034"/>
+                      <Color>008000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>WorldPTR</Address>
+                      <Offsets>
+                        <Offset>824</Offset>
+                        <Offset>D28</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
 		
                 <CheatEntry>
                   <ID>1015</ID>
@@ -1031,7 +956,7 @@ unregistersymbol(ammo)
                       </Offsets>
                     </CheatEntry>
                   </CheatEntries>
-                </CheatEntry>
+				</CheatEntry>
               </CheatEntries>
             </CheatEntry>
 				
@@ -1051,7 +976,7 @@ unregistersymbol(ammo)
                       <Address>WorldPTR</Address>
                       <Offsets>
                         <Offset>4C</Offset>
-                        <Offset>8C8</Offset>
+                        <Offset>918</Offset>
                         <Offset>D28</Offset>
                         <Offset>8</Offset>
                       </Offsets>
@@ -1129,20 +1054,6 @@ unregistersymbol(ammo)
                       <Address>WorldPTR</Address>
                       <Offsets>
                         <Offset>BCC</Offset>
-                        <Offset>D28</Offset>
-                        <Offset>8</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>981</ID>
-                      <Description>"Suspension Height"</Description>
-                      <LastState Value="0" RealAddress="15DFAE30"/>
-                      <Color>009797</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>WorldPTR</Address>
-                      <Offsets>
-                        <Offset>D0</Offset>
-                        <Offset>8C8</Offset>
                         <Offset>D28</Offset>
                         <Offset>8</Offset>
                       </Offsets>
@@ -1288,10 +1199,8 @@ unregistersymbol(ammo)
                         <Offset>8</Offset>
                       </Offsets>
                     </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
+            </CheatEntries>
+		</CheatEntry>
             <CheatEntry>
               <ID>1020</ID>
               <Description>"Teleport Options"</Description>
@@ -1355,7 +1264,6 @@ do
 end
 </AssemblerScript>
                 </CheatEntry>
-
                         <CheatEntry>
                           <ID>783</ID>
                           <Description>"Legion Garage"</Description>
@@ -1914,20 +1822,18 @@ dd (float)433.56
 [[[WorldPTR]+8]+30]+58:
 dd (float)144.43
 </AssemblerScript>
-                        </CheatEntry>						
-			
+                        </CheatEntry>
               </CheatEntries>
             </CheatEntry>
-
     <CheatEntry>
       <ID>348481</ID>
       <Description>"Edited by MrLeDuck and aZelda --- Discord: https://discord.gg/cuqcmHE"</Description>
       <Options moHideChildren="1"/>
       <LastState Value="" RealAddress="00000000"/>
-      <Color>FF8080</Color>
+      <Color>DE00D3</Color>
       <GroupHeader>1</GroupHeader>
     </CheatEntry>
-  </CheatEntries>
+	</CheatEntries>
   <UserdefinedSymbols/>
   <Structures StructVersion="2">
     <Structure Name="NerfAssultRifel" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
@@ -4939,6 +4845,8 @@ dd (float)144.43
       </Elements>
     </Structure>
   </Structures>
-</CheatEntry>
-</CheatEntries>
+      </CheatEntry>
+  </CheatEntries>
+    </CheatEntry>
+	</CheatEntries>
 </CheatTable>
