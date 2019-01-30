@@ -58,7 +58,7 @@ unregisterSymbol(GlobalPTR)
       <CheatEntries>
         <CheatEntry>
           <ID>11</ID>
-          <Description>"Open StolenValor 1.3"</Description>
+          <Description>"Open StolenValor 1.4"</Description>
           <Options moHideChildren="1"/>
           <LastState Value="" RealAddress="00000000"/>
           <Color>CA00CA</Color>
@@ -1823,11 +1823,467 @@ dd (float)433.56
 dd (float)144.43
 </AssemblerScript>
                         </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Bunker"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)899.65
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3216.04
+[[[WorldPTR]+8]+30]+58:
+dd (float)-98.23
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)899.65
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3216.04
+[[[WorldPTR]+8]+30]+58:
+dd (float)-98.23
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Mobile Operations Center"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)1103.64
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3007.02
+[[[WorldPTR]+8]+30]+58:
+dd (float)-37.93
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)1103.64
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3007.02
+[[[WorldPTR]+8]+30]+58:
+dd (float)-37.93
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Smugglers Hangar"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1264.56
+[[[WorldPTR]+8]+30]+54:
+dd (float)-2995.37
+[[[WorldPTR]+8]+30]+58:
+dd (float)-47.49
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1264.56
+[[[WorldPTR]+8]+30]+54:
+dd (float)-2995.37
+[[[WorldPTR]+8]+30]+58:
+dd (float)-47.49
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Doomsday Facility"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)2045.67
+[[[WorldPTR]+8]+30]+54:
+dd (float)2934.35
+[[[WorldPTR]+8]+30]+58:
+dd (float)-60.9
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)2045.67
+[[[WorldPTR]+8]+30]+54:
+dd (float)2934.35
+[[[WorldPTR]+8]+30]+58:
+dd (float)-60.9
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Server Room"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)2167.5
+[[[WorldPTR]+8]+30]+54:
+dd (float)2914.55
+[[[WorldPTR]+8]+30]+58:
+dd (float)-83.8
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)2167.5
+[[[WorldPTR]+8]+30]+54:
+dd (float)2914.55
+[[[WorldPTR]+8]+30]+58:
+dd (float)-83.8
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Submarine"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)513.31
+[[[WorldPTR]+8]+30]+54:
+dd (float)4839.51
+[[[WorldPTR]+8]+30]+58:
+dd (float)-61.59
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)513.31
+[[[WorldPTR]+8]+30]+54:
+dd (float)4839.51
+[[[WorldPTR]+8]+30]+58:
+dd (float)-61.59
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Midsize Apartment"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)573.7
+[[[WorldPTR]+8]+30]+54:
+dd (float)4749.7
+[[[WorldPTR]+8]+30]+58:
+dd (float)-58.2
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)573.7
+[[[WorldPTR]+8]+30]+54:
+dd (float)4749.7
+[[[WorldPTR]+8]+30]+58:
+dd (float)-58.2
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Studio"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)603.84
+[[[WorldPTR]+8]+30]+54:
+dd (float)4748.54
+[[[WorldPTR]+8]+30]+58:
+dd (float)-58.01
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)603.84
+[[[WorldPTR]+8]+30]+54:
+dd (float)4748.54
+[[[WorldPTR]+8]+30]+58:
+dd (float)-58.01
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Secret Lab"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)242.13
+[[[WorldPTR]+8]+30]+54:
+dd (float)6178.24
+[[[WorldPTR]+8]+30]+58:
+dd (float)-160.02
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)242.13
+[[[WorldPTR]+8]+30]+54:
+dd (float)6178.24
+[[[WorldPTR]+8]+30]+58:
+dd (float)-160.02
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Rocket Launch"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)373.12
+[[[WorldPTR]+8]+30]+54:
+dd (float)6303.76
+[[[WorldPTR]+8]+30]+58:
+dd (float)-158.96
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)373.12
+[[[WorldPTR]+8]+30]+54:
+dd (float)6303.76
+[[[WorldPTR]+8]+30]+58:
+dd (float)-158.96
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Underground Base"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)567.12
+[[[WorldPTR]+8]+30]+54:
+dd (float)5954.94
+[[[WorldPTR]+8]+30]+58:
+dd (float)-157.08
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)567.12
+[[[WorldPTR]+8]+30]+54:
+dd (float)5954.94
+[[[WorldPTR]+8]+30]+58:
+dd (float)-157.08
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Chiliad Tunnel"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)1283.41
+[[[WorldPTR]+8]+30]+54:
+dd (float)4874.02
+[[[WorldPTR]+8]+30]+58:
+dd (float)-45.22
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)1283.41
+[[[WorldPTR]+8]+30]+54:
+dd (float)4874.02
+[[[WorldPTR]+8]+30]+58:
+dd (float)-45.22
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Avenger (Inside)"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)520
+[[[WorldPTR]+8]+30]+54:
+dd (float)4750
+[[[WorldPTR]+8]+30]+58:
+dd (float)-68
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)520
+[[[WorldPTR]+8]+30]+54:
+dd (float)4750
+[[[WorldPTR]+8]+30]+58:
+dd (float)-68
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Galaxy Nightclub"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1569.87
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3013.15
+[[[WorldPTR]+8]+30]+58:
+dd (float)-73.41
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1569.87
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3013.15
+[[[WorldPTR]+8]+30]+58:
+dd (float)-73.41
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Terrorbyte (Inside)"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1420.73
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3014.88
+[[[WorldPTR]+8]+30]+58:
+dd (float)-78.15
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1420.73
+[[[WorldPTR]+8]+30]+54:
+dd (float)-3014.88
+[[[WorldPTR]+8]+30]+58:
+dd (float)-78.15
+</AssemblerScript>
+                        </CheatEntry>
+						
+                        <CheatEntry>
+                          <ID>783</ID>
+                          <Description>"Club Garage"</Description>
+                          <LastState/>
+                          <Color>008080</Color>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1509.44
+[[[WorldPTR]+8]+30]+54:
+dd (float)-2990.58
+[[[WorldPTR]+8]+30]+58:
+dd (float)-81.21
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+
+[[[WorldPTR]+8]+30]+50:
+dd (float)-1509.44
+[[[WorldPTR]+8]+30]+54:
+dd (float)-2990.58
+[[[WorldPTR]+8]+30]+58:
+dd (float)-81.21
+</AssemblerScript>
+                        </CheatEntry>
               </CheatEntries>
             </CheatEntry>
     <CheatEntry>
       <ID>348481</ID>
-      <Description>"Edited by MrLeDuck and aZelda --- Discord: https://discord.gg/cuqcmHE"</Description>
+      <Description>"Edited by MrLeDuck and aZelda"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>DE00D3</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+	<CheatEntry>
+      <ID>348481</ID>
+      <Description>"Join Discord for faster updates: https://discord.gg/cuqcmHE"</Description>
       <Options moHideChildren="1"/>
       <LastState Value="" RealAddress="00000000"/>
       <Color>DE00D3</Color>
