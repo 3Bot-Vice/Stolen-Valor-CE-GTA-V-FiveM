@@ -14,8 +14,14 @@ num7 godmode
 Custom TP tutorial:
 For custom Teleports (so not the waypoint), you need to select the teleports, then go in game and walk forward a bit.
 
+Model Changer:
+Only other players can see your model, meaning for you, you will still be the same. Go try it with a friend and see.
+If some models are just invisible, it's FiveM that isn't rendering them out (I know some dogs have that issue)
+Also here is a helpful model list I made for the cheat. Just copy and replace the model hex in the Cheat Table.
+https://pastebin.com/Md5juSLC
+
 Menu made by aZelda#6310 and MrLeDuck#1337
-Version 0.1.2
+Version 0.1.5
 
 ------------------------------------------------------------------
 [UPDATED TUTORIAL - READ IF YOU DON'T KNOW HOW CHEAT ENGINE WORKS]
