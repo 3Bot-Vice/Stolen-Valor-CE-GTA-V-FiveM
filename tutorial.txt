@@ -20,8 +20,17 @@ If some models are just invisible, it's FiveM that isn't rendering them out (I k
 Also here is a helpful model list I made for the cheat. Just copy and replace the model hex in the Cheat Table.
 https://pastebin.com/Md5juSLC
 
+Weapon Spawner (Replacer) Tutorial:
+- Use infinite ammo and no reload for this, as it is more convenient (you will see why).
+- Get one of the 4 weapons provided (knife, bat, pistol, or Combat pistol) and hold it in your hands.
+- Once it is in your hands, go ahead and replace it's model hex.
+- Just like the model changer, only other people will see the skins, but your character will have an animation as if he is holding the gun.
+- If you put the gun away or get in a vehicle, you will not be able to get it back. Simply change the hex back to it's original state to be able to equip the weapon in your hand, and then change it back to whatever weapon you want.
+- You will not be able to shoot if you replaced the melee weapons, but you will still hold the guns in your hands like a badass.
+- Throwables or RPGs do not work yet, but other weapons, railgun or minigun works fine.
+
 Menu made by aZelda#6310 and MrLeDuck#1337
-Version 0.1.5
+Version 0.1.6
 
 ------------------------------------------------------------------
 [UPDATED TUTORIAL - READ IF YOU DON'T KNOW HOW CHEAT ENGINE WORKS]
