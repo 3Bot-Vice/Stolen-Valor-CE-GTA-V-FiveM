@@ -10,7 +10,7 @@
       <ID>70</ID>
       <Description>"Initalize"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 {$lua}
@@ -58,9 +58,9 @@ unregisterSymbol(GlobalPTR)
       <CheatEntries>
         <CheatEntry>
           <ID>11</ID>
-          <Description>"Open StolenValor 2.0"</Description>
+          <Description>"Open StolenValor 2.2"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>CA00CA</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -73,24 +73,77 @@ unregisterSymbol(GlobalPTR)
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>16</ID>
-                  <Description>"Invisibility (beta) (CLIENT ONLY)"</Description>
-                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">47:OFF
+                  <ID>348721</ID>
+                  <Description>"Invisibility (Works)"</Description>
+                  <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>348719</ID>
+                      <Description>"Server-Side Invisibility"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1885233650:Visible Male
+2627665880:Visible Female
+2620240008:Invisible
+</DropDownList>
+                      <LastState Value="2620240008" RealAddress="293425C8"/>
+                      <Color>DB5C2D</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>"FiveM_GTAProcess.exe"+01C2E7D0</Address>
+                      <Offsets>
+                        <Offset>18</Offset>
+                        <Offset>20</Offset>
+                        <Offset>0</Offset>
+                        <Offset>20</Offset>
+                        <Offset>50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>16</ID>
+                      <Description>"Client-Side Invisibility"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">47:OFF
 1:ON
 </DropDownList>
-                  <LastState Value="39" RealAddress="22D31B2C"/>
-                  <Color>000000</Color>
-                  <VariableType>Byte</VariableType>
-                  <Address>WorldPTR</Address>
+                      <LastState Value="55" RealAddress="23CD347C"/>
+                      <Color>000000</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>WorldPTR</Address>
+                      <Offsets>
+                        <Offset>2c</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348722</ID>
+                      <Description>"Tutorial: Server-Side makes you invisible to others, Client-Side makes you invisible on your screen only"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>008080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>348720</ID>
+                  <Description>"Crash Players who look at you"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1885233650:OFF
+1057201338:ON
+</DropDownList>
+                  <LastState Value="2620240008" RealAddress="293425C8"/>
+                  <Color>0000FF</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>"FiveM_GTAProcess.exe"+01C2E7D0</Address>
                   <Offsets>
-                    <Offset>2c</Offset>
-                    <Offset>8</Offset>
+                    <Offset>18</Offset>
+                    <Offset>20</Offset>
+                    <Offset>0</Offset>
+                    <Offset>20</Offset>
+                    <Offset>50</Offset>
                   </Offsets>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>348624</ID>
                   <Description>"Model Changer"</Description>
-                  <LastState Value="2952446692" RealAddress="27AF6648"/>
+                  <LastState Value="2620240008" RealAddress="293425C8"/>
                   <Color>FF00FF</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>"FiveM_GTAProcess.exe"+01C2E7D0</Address>
@@ -105,7 +158,7 @@ unregisterSymbol(GlobalPTR)
                 <CheatEntry>
                   <ID>71</ID>
                   <Description>"Health num3"</Description>
-                  <LastState Value="175.2297974" RealAddress="22D31D80"/>
+                  <LastState Value="200" RealAddress="23CD36D0"/>
                   <Color>00CC00</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -164,7 +217,7 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>25</ID>
                   <Description>"Armor num4"</Description>
-                  <LastState Value="0" RealAddress="22D32FB8"/>
+                  <LastState Value="0" RealAddress="23CD4908"/>
                   <Color>A8A800</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -189,7 +242,7 @@ writeInteger(e, "0")
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20:false
 01:true
 </DropDownList>
-                  <LastState Value="20" RealAddress="22D32BA8"/>
+                  <LastState Value="20" RealAddress="23CD44F8"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>808000</Color>
                   <VariableType>Byte</VariableType>
@@ -220,7 +273,7 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>41</ID>
                   <Description>"Walk/Sprint Speed"</Description>
-                  <LastState Value="1" RealAddress="28B2814C"/>
+                  <LastState Value="1" RealAddress="28CDD9BC"/>
                   <Color>0080FF</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -233,7 +286,7 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>44</ID>
                   <Description>"Swim Speed"</Description>
-                  <LastState Value="1" RealAddress="28B28148"/>
+                  <LastState Value="1" RealAddress="28CDD9B8"/>
                   <Color>0080FF</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -246,7 +299,7 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>13</ID>
                   <Description>"Current Coordinates"</Description>
-                  <LastState Value="000000002A7568C0" RealAddress="22D31B30"/>
+                  <LastState Value="000000002B6F2930" RealAddress="23CD3480"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>808080</Color>
                   <VariableType>8 Bytes</VariableType>
@@ -259,7 +312,7 @@ writeInteger(e, "0")
                     <CheatEntry>
                       <ID>12</ID>
                       <Description>"X"</Description>
-                      <LastState Value="2511.968018" RealAddress="2A756910"/>
+                      <LastState Value="2212.294678" RealAddress="2B6F2980"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -272,7 +325,7 @@ writeInteger(e, "0")
                     <CheatEntry>
                       <ID>14</ID>
                       <Description>"Y"</Description>
-                      <LastState Value="-365.302887" RealAddress="2A756914"/>
+                      <LastState Value="5580.217773" RealAddress="2B6F2984"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -285,7 +338,7 @@ writeInteger(e, "0")
                     <CheatEntry>
                       <ID>15</ID>
                       <Description>"Z"</Description>
-                      <LastState Value="93.53430939" RealAddress="2A756918"/>
+                      <LastState Value="53.96362305" RealAddress="2B6F2988"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -309,7 +362,7 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>348567</ID>
                   <Description>"Current Ammo"</Description>
-                  <LastState Value="250" RealAddress="2F85B360"/>
+                  <LastState Value="250" RealAddress="309EEE60"/>
                   <Color>008000</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldPTR</Address>
@@ -326,7 +379,7 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>32</ID>
                   <Description>"Infinite Ammo"</Description>
-                  <LastState/>
+                  <LastState Activated="1"/>
                   <Color>FF6464</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[ENABLE]
@@ -391,7 +444,7 @@ unregistersymbol(clip)
 50:50x
 999:Instant
 </DropDownList>
-                  <LastState Value="1" RealAddress="2F1F140C"/>
+                  <LastState Value="1" RealAddress="307DDD7C"/>
                   <Color>FF0080</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -405,7 +458,7 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>348535</ID>
                   <Description>"Damage Multiplyer"</Description>
-                  <LastState Value="1" RealAddress="28B28C98"/>
+                  <LastState Value="1" RealAddress="28CDE508"/>
                   <Color>A00000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -418,7 +471,7 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>348510</ID>
                   <Description>"Melee Damage Multiplier"</Description>
-                  <LastState Value="1" RealAddress="28B28CA8"/>
+                  <LastState Value="1" RealAddress="28CDE518"/>
                   <Color>A00000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -443,7 +496,7 @@ unregistersymbol(clip)
 3: Bullets
 5: Explosives
 </DropDownList>
-                      <LastState Value="3" RealAddress="2F1F1300"/>
+                      <LastState Value="3" RealAddress="307DDC70"/>
                       <Color>6C6C6C</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -488,7 +541,7 @@ unregistersymbol(clip)
 41: Just Screen Shake (NO DAMAGE)
 99: SPOOF EXPLOSION (NO DAMAGE)
 </DropDownList>
-                      <LastState Value="4294967295" RealAddress="2F1F1304"/>
+                      <LastState Value="4294967295" RealAddress="307DDC74"/>
                       <Color>6C6C6C</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -528,7 +581,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348627</ID>
                       <Description>"Combat Pistol Replacer"</Description>
-                      <LastState Value="1593441988" RealAddress="2F38AF50"/>
+                      <LastState Value="1593441988" RealAddress="28B898E0"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+027DB7C0</Address>
                       <Offsets>
@@ -539,7 +592,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348633</ID>
                       <Description>"Pistol Replacer"</Description>
-                      <LastState Value="453432689" RealAddress="2F38A5E0"/>
+                      <LastState Value="453432689" RealAddress="28B88F70"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+027DB7F0</Address>
                       <Offsets>
@@ -550,7 +603,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348648</ID>
                       <Description>"Bat Replacer"</Description>
-                      <LastState Value="2508868239" RealAddress="2F388990"/>
+                      <LastState Value="2508868239" RealAddress="30475C60"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+01CCD190</Address>
                       <Offsets>
@@ -564,7 +617,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348636</ID>
                       <Description>"Knife Replacer"</Description>
-                      <LastState Value="2578778090" RealAddress="2F4D6410"/>
+                      <LastState Value="2578778090" RealAddress="30474010"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+0247F190</Address>
                       <Offsets>
@@ -588,7 +641,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>76</ID>
                       <Description>"Bullet Damage"</Description>
-                      <LastState Value="21" RealAddress="2F1F1390"/>
+                      <LastState Value="30" RealAddress="307DDD00"/>
                       <Color>6B6B6B</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -602,7 +655,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348533</ID>
                       <Description>"Bullet Mass"</Description>
-                      <LastState Value="1144750080" RealAddress="2F1F13B8"/>
+                      <LastState Value="1151500288" RealAddress="307DDD28"/>
                       <Color>666666</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -616,7 +669,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348536</ID>
                       <Description>"Bullets in Batch"</Description>
-                      <LastState Value="1" RealAddress="2F1F13F8"/>
+                      <LastState Value="1" RealAddress="307DDD68"/>
                       <Color>666666</Color>
                       <VariableType>Byte</VariableType>
                       <Address>WorldPTR</Address>
@@ -630,7 +683,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>78</ID>
                       <Description>"Muzzle Velocity"</Description>
-                      <LastState Value="2000" RealAddress="2F1F13F4"/>
+                      <LastState Value="2000" RealAddress="307DDD64"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -644,7 +697,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>82</ID>
                       <Description>"Weapon Range"</Description>
-                      <LastState Value="120" RealAddress="2F1F156C"/>
+                      <LastState Value="120" RealAddress="307DDEDC"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -658,7 +711,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>80</ID>
                       <Description>"Weapon Recoil"</Description>
-                      <LastState Value="0.3330000043" RealAddress="2F1F15C8"/>
+                      <LastState Value="0.3330000043" RealAddress="307DDF38"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -672,7 +725,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>81</ID>
                       <Description>"Batch Spread"</Description>
-                      <LastState Value="4" RealAddress="2F1F1354"/>
+                      <LastState Value="3.5" RealAddress="307DDCC4"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -686,7 +739,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348537</ID>
                       <Description>"Penetration"</Description>
-                      <LastState Value="0.009999999776" RealAddress="2F1F13E8"/>
+                      <LastState Value="0.1000000015" RealAddress="307DDD58"/>
                       <Color>666666</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -700,7 +753,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348528</ID>
                       <Description>"Force on Ped"</Description>
-                      <LastState Value="120" RealAddress="2F1F13B4"/>
+                      <LastState Value="140" RealAddress="307DDD24"/>
                       <Color>6B6B6B</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -714,7 +767,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>77</ID>
                       <Description>"Force on Vehicle"</Description>
-                      <LastState Value="750" RealAddress="2F1F13B8"/>
+                      <LastState Value="1300" RealAddress="307DDD28"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -728,7 +781,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348530</ID>
                       <Description>"Force on Heli"</Description>
-                      <LastState Value="750" RealAddress="2F1F13BC"/>
+                      <LastState Value="1250" RealAddress="307DDD2C"/>
                       <Color>6B6B6B</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -745,7 +798,7 @@ unregistersymbol(clip)
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">2:Default
 0.1000000015:Instant
 </DropDownList>
-                      <LastState Value="0" RealAddress="2D90C5F8"/>
+                      <LastState Value="0" RealAddress="2E89C6B8"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -760,7 +813,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348534</ID>
                       <Description>"Lock-on Range"</Description>
-                      <LastState Value="120" RealAddress="2F1F156C"/>
+                      <LastState Value="120" RealAddress="307DDEDC"/>
                       <Color>666666</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -777,7 +830,7 @@ unregistersymbol(clip)
                       <DropDownList DisplayValueAsItem="1">25000:FAST
 99999: FASTER
 </DropDownList>
-                      <LastState Value="7.362604016E22" RealAddress="2D90C4D8"/>
+                      <LastState Value="0" RealAddress="2E89C598"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -792,7 +845,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348538</ID>
                       <Description>"Rocket Life Time"</Description>
-                      <LastState Value="6.970935414E22" RealAddress="2D90C4C8"/>
+                      <LastState Value="1.420055479E-14" RealAddress="2E89C588"/>
                       <Color>666666</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -807,7 +860,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348531</ID>
                       <Description>"Homing Ability"</Description>
-                      <LastState Value="-2.686844101E-29" RealAddress="2D90C610"/>
+                      <LastState Value="3.615934054E10" RealAddress="2E89C6D0"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -822,7 +875,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348515</ID>
                       <Description>"Throwables Gravity"</Description>
-                      <LastState Value="3.556362094E-9" RealAddress="2D90C4E8"/>
+                      <LastState Value="1.401158334E-41" RealAddress="2E89C5A8"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -837,7 +890,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348539</ID>
                       <Description>"Weapon Wheel Slot"</Description>
-                      <LastState Value="1" RealAddress="2F1F1338"/>
+                      <LastState Value="2" RealAddress="307DDCA8"/>
                       <Color>626262</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -851,7 +904,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348517</ID>
                       <Description>"Throwables Gravity"</Description>
-                      <LastState Value="3.556362094E-9" RealAddress="2D90C4E8"/>
+                      <LastState Value="1.401158334E-41" RealAddress="2E89C5A8"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -872,7 +925,7 @@ unregistersymbol(clip)
 45:Default 2
 50:Default 3
 </DropDownList>
-                  <LastState Value="-1.588619205E18" RealAddress="2F1F15C0"/>
+                  <LastState Value="-1.588619205E18" RealAddress="307DDF30"/>
                   <Color>C08000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -889,7 +942,7 @@ unregistersymbol(clip)
               <ID>65</ID>
               <Description>"Vehicle Options"</Description>
               <Options moHideChildren="1"/>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>000000</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -899,7 +952,6 @@ unregistersymbol(clip)
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:OFF
 1:ON
 </DropDownList>
-                  <LastState Value="0" RealAddress="22F29359"/>
                   <Color>FF0080</Color>
                   <VariableType>Byte</VariableType>
                   <Address>WorldPTR</Address>
@@ -944,7 +996,6 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>73</ID>
                   <Description>"Engine Health 1"</Description>
-                  <LastState Value="0" RealAddress="22F29450"/>
                   <Color>008000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -957,7 +1008,6 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>74</ID>
                   <Description>"Engine Health 2"</Description>
-                  <LastState Value="-3073.587158" RealAddress="22F29AB8"/>
                   <Color>008000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -970,7 +1020,6 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>348548</ID>
                   <Description>"Engine Health 3"</Description>
-                  <LastState Value="0" RealAddress="22F299F4"/>
                   <Color>008000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -983,7 +1032,6 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>1015</ID>
                   <Description>"Boost"</Description>
-                  <LastState Value="1.25" RealAddress="22F294F0"/>
                   <Color>009D9D</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -1007,14 +1055,13 @@ unregistersymbol(clip)
                   <ID>88</ID>
                   <Description>"Vehicle Mods (Advanced)"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="" Activated="1" RealAddress="00000000"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>808080</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>89</ID>
                       <Description>"Acceleration"</Description>
-                      <LastState Value="1" RealAddress="172854AFC"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1028,7 +1075,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>90</ID>
                       <Description>"Brake Force"</Description>
-                      <LastState Value="1.100000024" RealAddress="172854B1C"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1042,7 +1088,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>91</ID>
                       <Description>"Handbrake Force"</Description>
-                      <LastState Value="0.5" RealAddress="172854B2C"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1056,7 +1101,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>1013</ID>
                       <Description>"Deform Multiplier"</Description>
-                      <LastState Value="0.6999999881" RealAddress="172854BA8"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1070,7 +1114,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348544</ID>
                       <Description>"Traction Curve Min"</Description>
-                      <LastState Value="2.549999952" RealAddress="172854B40"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1084,7 +1127,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>912</ID>
                       <Description>"Traction Curve Max"</Description>
-                      <LastState Value="2.680000067" RealAddress="172854B38"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1098,7 +1140,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348718</ID>
                       <Description>"Gravity"</Description>
-                      <LastState Value="10" RealAddress="22F29DEC"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1163,7 +1204,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348542</ID>
                       <Description>"Vehicle Mass"</Description>
-                      <LastState Value="880" RealAddress="172854ABC"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1177,7 +1217,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348543</ID>
                       <Description>"Vehicle Buoyancy"</Description>
-                      <LastState Value="85" RealAddress="172854AF0"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1191,7 +1230,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>737</ID>
                       <Description>"Rocket Fuel Level"</Description>
-                      <LastState Value="160" RealAddress="22F294F2"/>
                       <Color>626262</Color>
                       <VariableType>Byte</VariableType>
                       <Address>WorldPTR</Address>
@@ -1204,7 +1242,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>980</ID>
                       <Description>"Rocket Recharge Speed"</Description>
-                      <LastState Value="0.5" RealAddress="22F294F4"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1217,7 +1254,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348545</ID>
                       <Description>"Boost Max Speed"</Description>
-                      <LastState Value="70" RealAddress="172854BD0"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1231,7 +1267,7 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>24</ID>
                       <Description>"Vehicle Damage Multiplier"</Description>
-                      <LastState Value="1" RealAddress="28B28CA8"/>
+                      <LastState Value="1" RealAddress="28CDE518"/>
                       <Color>008080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1244,7 +1280,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>1014</ID>
                       <Description>"Dirt Level"</Description>
-                      <LastState Value="0" RealAddress="22F29B58"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1257,7 +1292,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348540</ID>
                       <Description>"Weapon Damage MP"</Description>
-                      <LastState Value="1" RealAddress="172854BA4"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1271,7 +1305,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348541</ID>
                       <Description>"Colision Damage MP"</Description>
-                      <LastState Value="0.6999999881" RealAddress="172854BA0"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1285,7 +1318,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348546</ID>
                       <Description>"Thrust"</Description>
-                      <LastState Value="-2.266285703E-37" RealAddress="172854DE8"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1299,7 +1331,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348547</ID>
                       <Description>"Thrust Deluxo"</Description>
-                      <LastState Value="0.3839724362" RealAddress="172854E78"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1315,7 +1346,6 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>54</ID>
                   <Description>"Current Vehicle Coordinates"</Description>
-                  <LastState Value="0000000027C835B0" RealAddress="22F29200"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>000000</Color>
                   <VariableType>8 Bytes</VariableType>
@@ -1329,7 +1359,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>43</ID>
                       <Description>"X"</Description>
-                      <LastState Value="2511.802246" RealAddress="27C83600"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1343,7 +1372,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348580</ID>
                       <Description>"Y"</Description>
-                      <LastState Value="-365.6534729" RealAddress="27C83604"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1357,7 +1385,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>45</ID>
                       <Description>"Z"</Description>
-                      <LastState Value="93.48698425" RealAddress="27C83608"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
