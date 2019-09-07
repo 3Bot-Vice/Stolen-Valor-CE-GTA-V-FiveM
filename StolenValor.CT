@@ -58,7 +58,7 @@ unregisterSymbol(GlobalPTR)
       <CheatEntries>
         <CheatEntry>
           <ID>11</ID>
-          <Description>"Open StolenValor 2.2"</Description>
+          <Description>"Open StolenValor 2.3"</Description>
           <Options moHideChildren="1"/>
           <LastState Value="" RealAddress="00000000"/>
           <Color>CA00CA</Color>
@@ -74,19 +74,18 @@ unregisterSymbol(GlobalPTR)
               <CheatEntries>
                 <CheatEntry>
                   <ID>348721</ID>
-                  <Description>"Invisibility (Works)"</Description>
+                  <Description>"Invisibility"</Description>
                   <Options moHideChildren="1"/>
                   <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>348719</ID>
-                      <Description>"Server-Side Invisibility"</Description>
+                      <Description>"Server-Side Invisibility ***"</Description>
                       <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1885233650:Visible Male
 2627665880:Visible Female
 2620240008:Invisible
 </DropDownList>
-                      <LastState Value="2620240008" RealAddress="293425C8"/>
                       <Color>DB5C2D</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+01C2E7D0</Address>
@@ -104,7 +103,6 @@ unregisterSymbol(GlobalPTR)
                       <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">47:OFF
 1:ON
 </DropDownList>
-                      <LastState Value="55" RealAddress="23CD347C"/>
                       <Color>000000</Color>
                       <VariableType>Byte</VariableType>
                       <Address>WorldPTR</Address>
@@ -120,15 +118,21 @@ unregisterSymbol(GlobalPTR)
                       <Color>008080</Color>
                       <GroupHeader>1</GroupHeader>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>348723</ID>
+                      <Description>"For the Client-Side invisibility, double click on the value and set it to ON (or OFF)"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>008080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>348720</ID>
-                  <Description>"Crash Players who look at you"</Description>
+                  <Description>"Crash Players who look at you ***"</Description>
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1885233650:OFF
 1057201338:ON
 </DropDownList>
-                  <LastState Value="2620240008" RealAddress="293425C8"/>
                   <Color>0000FF</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>"FiveM_GTAProcess.exe"+01C2E7D0</Address>
@@ -143,7 +147,6 @@ unregisterSymbol(GlobalPTR)
                 <CheatEntry>
                   <ID>348624</ID>
                   <Description>"Model Changer"</Description>
-                  <LastState Value="2620240008" RealAddress="293425C8"/>
                   <Color>FF00FF</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>"FiveM_GTAProcess.exe"+01C2E7D0</Address>
@@ -158,7 +161,6 @@ unregisterSymbol(GlobalPTR)
                 <CheatEntry>
                   <ID>71</ID>
                   <Description>"Health num3"</Description>
-                  <LastState Value="200" RealAddress="23CD36D0"/>
                   <Color>00CC00</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -217,7 +219,6 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>25</ID>
                   <Description>"Armor num4"</Description>
-                  <LastState Value="0" RealAddress="23CD4908"/>
                   <Color>A8A800</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -242,7 +243,6 @@ writeInteger(e, "0")
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">20:false
 01:true
 </DropDownList>
-                  <LastState Value="20" RealAddress="23CD44F8"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>808000</Color>
                   <VariableType>Byte</VariableType>
@@ -273,7 +273,6 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>41</ID>
                   <Description>"Walk/Sprint Speed"</Description>
-                  <LastState Value="1" RealAddress="28CDD9BC"/>
                   <Color>0080FF</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -286,7 +285,6 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>44</ID>
                   <Description>"Swim Speed"</Description>
-                  <LastState Value="1" RealAddress="28CDD9B8"/>
                   <Color>0080FF</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -299,7 +297,6 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>13</ID>
                   <Description>"Current Coordinates"</Description>
-                  <LastState Value="000000002B6F2930" RealAddress="23CD3480"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>808080</Color>
                   <VariableType>8 Bytes</VariableType>
@@ -312,7 +309,6 @@ writeInteger(e, "0")
                     <CheatEntry>
                       <ID>12</ID>
                       <Description>"X"</Description>
-                      <LastState Value="2212.294678" RealAddress="2B6F2980"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -325,7 +321,6 @@ writeInteger(e, "0")
                     <CheatEntry>
                       <ID>14</ID>
                       <Description>"Y"</Description>
-                      <LastState Value="5580.217773" RealAddress="2B6F2984"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -338,7 +333,6 @@ writeInteger(e, "0")
                     <CheatEntry>
                       <ID>15</ID>
                       <Description>"Z"</Description>
-                      <LastState Value="53.96362305" RealAddress="2B6F2988"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -347,6 +341,13 @@ writeInteger(e, "0")
                         <Offset>30</Offset>
                         <Offset>8</Offset>
                       </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348724</ID>
+                      <Description>"Hint: Changing a coordinate and then walking a bit in game will teleport you to the new place"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>408080</Color>
+                      <GroupHeader>1</GroupHeader>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -362,7 +363,6 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>348567</ID>
                   <Description>"Current Ammo"</Description>
-                  <LastState Value="250" RealAddress="309EEE60"/>
                   <Color>008000</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>WorldPTR</Address>
@@ -379,7 +379,7 @@ writeInteger(e, "0")
                 <CheatEntry>
                   <ID>32</ID>
                   <Description>"Infinite Ammo"</Description>
-                  <LastState Activated="1"/>
+                  <LastState/>
                   <Color>FF6464</Color>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[ENABLE]
@@ -444,7 +444,6 @@ unregistersymbol(clip)
 50:50x
 999:Instant
 </DropDownList>
-                  <LastState Value="1" RealAddress="307DDD7C"/>
                   <Color>FF0080</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -458,7 +457,6 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>348535</ID>
                   <Description>"Damage Multiplyer"</Description>
-                  <LastState Value="1" RealAddress="28CDE508"/>
                   <Color>A00000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -471,7 +469,6 @@ unregistersymbol(clip)
                 <CheatEntry>
                   <ID>348510</ID>
                   <Description>"Melee Damage Multiplier"</Description>
-                  <LastState Value="1" RealAddress="28CDE518"/>
                   <Color>A00000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -496,7 +493,6 @@ unregistersymbol(clip)
 3: Bullets
 5: Explosives
 </DropDownList>
-                      <LastState Value="3" RealAddress="307DDC70"/>
                       <Color>6C6C6C</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -541,7 +537,6 @@ unregistersymbol(clip)
 41: Just Screen Shake (NO DAMAGE)
 99: SPOOF EXPLOSION (NO DAMAGE)
 </DropDownList>
-                      <LastState Value="4294967295" RealAddress="307DDC74"/>
                       <Color>6C6C6C</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -581,7 +576,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348627</ID>
                       <Description>"Combat Pistol Replacer"</Description>
-                      <LastState Value="1593441988" RealAddress="28B898E0"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+027DB7C0</Address>
                       <Offsets>
@@ -592,7 +586,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348633</ID>
                       <Description>"Pistol Replacer"</Description>
-                      <LastState Value="453432689" RealAddress="28B88F70"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+027DB7F0</Address>
                       <Offsets>
@@ -603,7 +596,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348648</ID>
                       <Description>"Bat Replacer"</Description>
-                      <LastState Value="2508868239" RealAddress="30475C60"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+01CCD190</Address>
                       <Offsets>
@@ -617,7 +609,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348636</ID>
                       <Description>"Knife Replacer"</Description>
-                      <LastState Value="2578778090" RealAddress="30474010"/>
                       <VariableType>4 Bytes</VariableType>
                       <Address>"FiveM_GTAProcess.exe"+0247F190</Address>
                       <Offsets>
@@ -641,7 +632,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>76</ID>
                       <Description>"Bullet Damage"</Description>
-                      <LastState Value="30" RealAddress="307DDD00"/>
                       <Color>6B6B6B</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -655,7 +645,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348533</ID>
                       <Description>"Bullet Mass"</Description>
-                      <LastState Value="1151500288" RealAddress="307DDD28"/>
                       <Color>666666</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -669,7 +658,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348536</ID>
                       <Description>"Bullets in Batch"</Description>
-                      <LastState Value="1" RealAddress="307DDD68"/>
                       <Color>666666</Color>
                       <VariableType>Byte</VariableType>
                       <Address>WorldPTR</Address>
@@ -683,7 +671,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>78</ID>
                       <Description>"Muzzle Velocity"</Description>
-                      <LastState Value="2000" RealAddress="307DDD64"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -697,7 +684,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>82</ID>
                       <Description>"Weapon Range"</Description>
-                      <LastState Value="120" RealAddress="307DDEDC"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -711,7 +697,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>80</ID>
                       <Description>"Weapon Recoil"</Description>
-                      <LastState Value="0.3330000043" RealAddress="307DDF38"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -725,7 +710,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>81</ID>
                       <Description>"Batch Spread"</Description>
-                      <LastState Value="3.5" RealAddress="307DDCC4"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -739,7 +723,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348537</ID>
                       <Description>"Penetration"</Description>
-                      <LastState Value="0.1000000015" RealAddress="307DDD58"/>
                       <Color>666666</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -753,7 +736,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348528</ID>
                       <Description>"Force on Ped"</Description>
-                      <LastState Value="140" RealAddress="307DDD24"/>
                       <Color>6B6B6B</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -767,7 +749,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>77</ID>
                       <Description>"Force on Vehicle"</Description>
-                      <LastState Value="1300" RealAddress="307DDD28"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -781,7 +762,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348530</ID>
                       <Description>"Force on Heli"</Description>
-                      <LastState Value="1250" RealAddress="307DDD2C"/>
                       <Color>6B6B6B</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -798,7 +778,6 @@ unregistersymbol(clip)
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">2:Default
 0.1000000015:Instant
 </DropDownList>
-                      <LastState Value="0" RealAddress="2E89C6B8"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -813,7 +792,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348534</ID>
                       <Description>"Lock-on Range"</Description>
-                      <LastState Value="120" RealAddress="307DDEDC"/>
                       <Color>666666</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -830,7 +808,6 @@ unregistersymbol(clip)
                       <DropDownList DisplayValueAsItem="1">25000:FAST
 99999: FASTER
 </DropDownList>
-                      <LastState Value="0" RealAddress="2E89C598"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -845,7 +822,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348538</ID>
                       <Description>"Rocket Life Time"</Description>
-                      <LastState Value="1.420055479E-14" RealAddress="2E89C588"/>
                       <Color>666666</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -860,7 +836,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348531</ID>
                       <Description>"Homing Ability"</Description>
-                      <LastState Value="3.615934054E10" RealAddress="2E89C6D0"/>
                       <Color>626262</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -875,7 +850,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348515</ID>
                       <Description>"Throwables Gravity"</Description>
-                      <LastState Value="1.401158334E-41" RealAddress="2E89C5A8"/>
                       <Color>646464</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -890,7 +864,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348539</ID>
                       <Description>"Weapon Wheel Slot"</Description>
-                      <LastState Value="2" RealAddress="307DDCA8"/>
                       <Color>626262</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>WorldPTR</Address>
@@ -904,7 +877,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>348517</ID>
                       <Description>"Throwables Gravity"</Description>
-                      <LastState Value="1.401158334E-41" RealAddress="2E89C5A8"/>
                       <Color>808080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -920,12 +892,11 @@ unregistersymbol(clip)
                 </CheatEntry>
                 <CheatEntry>
                   <ID>348527</ID>
-                  <Description>"Aim FOV(beta)"</Description>
+                  <Description>"Aim FOV ***"</Description>
                   <DropDownList DisplayValueAsItem="1">35:Default 1
 45:Default 2
 50:Default 3
 </DropDownList>
-                  <LastState Value="-1.588619205E18" RealAddress="307DDF30"/>
                   <Color>C08000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -995,7 +966,7 @@ unregistersymbol(clip)
                 </CheatEntry>
                 <CheatEntry>
                   <ID>73</ID>
-                  <Description>"Engine Health 1"</Description>
+                  <Description>"Engine Health 1 (Don't Touch)"</Description>
                   <Color>008000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -1007,7 +978,7 @@ unregistersymbol(clip)
                 </CheatEntry>
                 <CheatEntry>
                   <ID>74</ID>
-                  <Description>"Engine Health 2"</Description>
+                  <Description>"Engine Health 2 (REAL ENGINE)"</Description>
                   <Color>008000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -1016,10 +987,21 @@ unregistersymbol(clip)
                     <Offset>D28</Offset>
                     <Offset>8</Offset>
                   </Offsets>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Set Value</Action>
+                      <Keys>
+                        <Key>101</Key>
+                      </Keys>
+                      <Value>1000</Value>
+                      <Description>Repair Engine</Description>
+                      <ID>0</ID>
+                    </Hotkey>
+                  </Hotkeys>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>348548</ID>
-                  <Description>"Engine Health 3"</Description>
+                  <Description>"Engine Health 3 (Don't Touch)"</Description>
                   <Color>008000</Color>
                   <VariableType>Float</VariableType>
                   <Address>WorldPTR</Address>
@@ -1267,7 +1249,6 @@ unregistersymbol(clip)
                     <CheatEntry>
                       <ID>24</ID>
                       <Description>"Vehicle Damage Multiplier"</Description>
-                      <LastState Value="1" RealAddress="28CDE518"/>
                       <Color>008080</Color>
                       <VariableType>Float</VariableType>
                       <Address>WorldPTR</Address>
@@ -1394,6 +1375,13 @@ unregistersymbol(clip)
                         <Offset>D28</Offset>
                         <Offset>8</Offset>
                       </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348725</ID>
+                      <Description>"Hint: Changing a coordinate and then driving a bit in game will teleport you and your car to the new place"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>408080</Color>
+                      <GroupHeader>1</GroupHeader>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -2885,6 +2873,524 @@ dd (float)-81.21
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
+              <ID>348727</ID>
+              <Description>"Changelog &amp; FAQ"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>348728</ID>
+                  <Description>"Changelog"</Description>
+                  <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>348770</ID>
+                      <Description>"Version 0.2.3 (Current)"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>2EB700</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348796</ID>
+                          <Description>"- Updated the tutorials"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348797</ID>
+                          <Description>"- Fixed vehicle issues"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348798</ID>
+                          <Description>"- Improved the UI and made some stuff clearer"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348799</ID>
+                          <Description>"- Added Changelog and FAQ to the table"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348769</ID>
+                      <Description>"Version 0.2.2"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348792</ID>
+                          <Description>"- Invisibility now works! (Patched)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348793</ID>
+                          <Description>"- You can now crash any play that looks at you (Located in Player Options) (Patched)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348794</ID>
+                          <Description>"(The features are only patched in the public version due to FiveM Devs)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>808080</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348795</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=26257"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348768</ID>
+                      <Description>"Version 0.2.1"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348790</ID>
+                          <Description>"- Fixed car Gravity"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348791</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=26213"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348767</ID>
+                      <Description>"Version 0.2.0"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348786</ID>
+                          <Description>"- Fixed the Bat Replace"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348787</ID>
+                          <Description>"- Completely changed the layout to be organised"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348788</ID>
+                          <Description>"- Added tutorials in the table (you're welcome new users)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348789</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=26016"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348766</ID>
+                      <Description>"Version 0.1.6"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348783</ID>
+                          <Description>"- Added Weapon Spawner (Under the Weapon Replacer category)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348784</ID>
+                          <Description>"(It's not a spawner, but a replacer, read the weapon replacer tutorial)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>808080</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348785</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=25998"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348765</ID>
+                      <Description>"Version 0.1.5"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348780</ID>
+                          <Description>"- Added Model Changer! (Can be located under Player Options)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348781</ID>
+                          <Description>"(Only other players can see your model, meaning for you, you will still look the same.)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>808080</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348782</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=25993"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348764</ID>
+                      <Description>"Version 0.1.4"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348776</ID>
+                          <Description>"- Added a lot of new Interior Teleports for the new Gta Update"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348777</ID>
+                          <Description>"(Some of the more recent interior visuals might not render due to FiveM's delay on Gta updates)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>808080</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348778</ID>
+                          <Description>"- Other Minor UI changes"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348779</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=25819"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348763</ID>
+                      <Description>"Version 0.1.3"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348774</ID>
+                          <Description>"- Updated signatures for latest FiveM update. (It's automatic now)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348775</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=25786"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348761</ID>
+                      <Description>"Version 0.1.2"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348772</ID>
+                          <Description>"- Fixed some bugs that crashed your game"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>348773</ID>
+                          <Description>"https://www.unknowncheats.me/forum/downloads.php?do=file&amp;id=25758"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <Color>FF8000</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348762</ID>
+                      <Description>"Version 0.1.1"</Description>
+                      <Options moHideChildren="1"/>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>0000FF</Color>
+                      <GroupHeader>1</GroupHeader>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348771</ID>
+                          <Description>"- Initial Release (No Download Available)"</Description>
+                          <LastState Value="" RealAddress="00000000"/>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>348729</ID>
+                  <Description>"FAQ"</Description>
+                  <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>348730</ID>
+                      <Description>"Q : Why have the public releases stopped?"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>C08000</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348746</ID>
+                      <Description>"A : Whilst many of you are not aware, the cheat is still being worked on, however we have moved"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348747</ID>
+                      <Description>"      on from public releases to a private version of the cheat. As the cheat is open source, anyone"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348748</ID>
+                      <Description>"      can take a look and figure out how features work. Game breaking bugs such as the popular"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348749</ID>
+                      <Description>"      "Crash players" exploit take time for us to find, but can easily be fixed by FiveM devs (who"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348750</ID>
+                      <Description>"      frequently check Unknown Cheats). For that reason we have decided to stop releasing major"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348751</ID>
+                      <Description>"      updates for the cheat and keep major bugs hidden from the devs. A bit selfish  I know, but it"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348752</ID>
+                      <Description>"      isn't fun to spend 3 weeks finding a bug and then getting it patched by FiveM devs in 12h."</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348736</ID>
+                      <Description>" "</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348731</ID>
+                      <Description>"Q : How can I get the private version of StolenValor?"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>C08000</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348758</ID>
+                      <Description>"A : You cannot as cheat tables are open source and a leak is risked. The private version  of the"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348759</ID>
+                      <Description>"      cheat includes fixes to all the patched featured that the public version has (i.e. Player crasher,"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348760</ID>
+                      <Description>"      invisibility, etc), which sadly must remain secret if we don't want it patched."</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348737</ID>
+                      <Description>" "</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348732</ID>
+                      <Description>"Q : Why are some features not working in the public cheat?"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>C08000</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348753</ID>
+                      <Description>"A : Because some (most still work) are outdated and patched. Every new update they were fixed"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348754</ID>
+                      <Description>"      and working again just to get them patched by FiveM devs in under 12h. For that reason, in the"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348755</ID>
+                      <Description>"      final release we have added  *** next to all the features that tend to get patched on the FiveM"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348756</ID>
+                      <Description>"      network (i.e. Player Crasher and Server-Side Invisibility)."</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348738</ID>
+                      <Description>" "</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348733</ID>
+                      <Description>"Q : Can I modify the cheat?"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>C08000</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348744</ID>
+                      <Description>"A : Yes. This is an open source project. Anyone can do what they want and modify/add their own"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348745</ID>
+                      <Description>"      features to it. If you are going to release something however, credit is always appreciated :)"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348739</ID>
+                      <Description>" "</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348734</ID>
+                      <Description>"Q : Can I get banned from FiveM for using this cheat?"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>C08000</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348740</ID>
+                      <Description>"A : No but you have to careful. FiveM looks at crash reports. Crashing because you changed a"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348741</ID>
+                      <Description>"      feature or tried searching for long values will send a crash report which can then get you"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348742</ID>
+                      <Description>"      banned. Alternatively you could use a crash report dumper to skip the crash report if your"</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348743</ID>
+                      <Description>"      game crashes."</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>000080</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348757</ID>
+                      <Description>" "</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
               <ID>348481</ID>
               <Description>"Edited by MrLeDuck and aZelda"</Description>
               <Options moHideChildren="1"/>
@@ -2892,15 +3398,14 @@ dd (float)-81.21
               <Color>DE00D3</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
-            <CheatEntry>
-              <ID>348616</ID>
-              <Description>"Join Discord for faster updates: https://discord.gg/cuqcmHE"</Description>
-              <Options moHideChildren="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <Color>DE00D3</Color>
-              <GroupHeader>1</GroupHeader>
-            </CheatEntry>
           </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>348726</ID>
+          <Description>"All values having *** next to them signify that they don't work anymore in FiveM"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>8000FF</Color>
+          <GroupHeader>1</GroupHeader>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
